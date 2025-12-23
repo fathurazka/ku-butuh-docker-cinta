@@ -11,10 +11,13 @@ on:
 env:
   CSV_URL: "MLproject/train_pca.csv"
   TARGET_VAR: "Credit_Score"
+  MLFLOW_TRACKING_URI: "file:./MLproject/mlruns"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
