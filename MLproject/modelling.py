@@ -28,7 +28,7 @@ if __name__ == "__main__":
     max_depth = int(sys.argv[2]) if len(sys.argv) > 2 else 10
     
     # Set tracking URI to use local file storage
-    #mlflow.set_tracking_uri("file:./mlruns")
+    mlflow.set_tracking_uri("file:./mlruns")
     
     with mlflow.start_run():
         model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth)
