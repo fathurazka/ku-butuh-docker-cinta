@@ -1,0 +1,10 @@
+artifact_location: file:///home/runner/work/ku-butuh-docker-cinta/ku-butuh-docker-cinta/MLproject/mlruns/0/models/m-08047f3509024f22824f259d5f0fd735/artifacts
+creation_timestamp: 1766623225704
+experiment_id: '0'
+last_updated_timestamp: 1766623228220
+model_id: m-08047f3509024f22824f259d5f0fd735
+model_type: null
+name: model
+source_run_id: 8e5607c0560a40dc86485a757b944d62
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/ku-butuh-docker-cinta/ku-butuh-docker-cinta/MLproject/mlruns/0/8e5607c0560a40dc86485a757b944d62/artifacts
+end_time: 1766623235160
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e5607c0560a40dc86485a757b944d62
+run_name: nosy-horse-439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766623217285
+status: 3
+tags: []
+user_id: runner
